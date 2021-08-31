@@ -22,7 +22,7 @@ class Database:
             # pas = p.parsingFile("password", True)
             # hos = p.parsingFile("host", True)
             try:
-                db = pgsql.Connection(database="autsave", user="postgres", password="xthyjskm2000")
+                db = pgsql.Connection(database="autsave", user="postgres", password="")
                 x = db("SELECT id, hostname, filepath, date, filesize, server FROM public.info ORDER BY date DESC;")
                 db.close()
                 jsonString = json.dumps(x)
