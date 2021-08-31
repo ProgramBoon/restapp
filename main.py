@@ -21,7 +21,7 @@ app = Flask(__name__)
 
 # @app.after_request
 # def after_request(response):
-#     white_origin= ['http://localhost:5000','http://127.0.0.1:5000','http://192.168.0.101:5000']
+#     white_origin= ['http://localhost:5000','http://127.0.0.1:5000','htt0']
 #     print(request.headers)
 #     print(request.referrer)
 #     if request.headers['Origin'] in white_origin:
